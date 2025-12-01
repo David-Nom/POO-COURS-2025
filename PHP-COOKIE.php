@@ -1,6 +1,5 @@
 <?php
 #1)setcookie 3 argument c’est le nom du cookie (la clé)./valeurs du nom du cookie/temps d'éxpiration
-
 setcookie("nom", "Glad Dev", time()+3600); #1heur avent expiration
 
 #2)
@@ -20,7 +19,6 @@ if(isset($_COOKIE["nom"])){ $_COOKIE ; #tableau spécial qui contient tous les c
     echo "Cookie non defini";
 }
 #1) crée un cookie qui s’appelle "nom", qui contient "Glad Dev", valable pendant 1 heure.
-
 #2) écrit le code sans le changer
 ?>
 
